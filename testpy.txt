@@ -1,0 +1,9 @@
+def get_cat_fact():
+    # Simulated fake API response
+    data = {
+        "fact": "Cats can jump up to six times their length in one leap."
+    }
+    return data["fact"]
+
+print("Here's your random cat fact:")
+print(get_cat_fact())
